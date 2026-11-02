@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "greetings", "whats up"],
+      "responses": [
+        "Hello! I am your Datheon AI Assistant. How can I help you today?",
+        "Hi there! Welcome to Datheon. What can I assist you with today?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["hours", "timings", "opening time", "closing time", "business hours", "when are you open", "working days"],
+      "responses": [
+        "Our operations and support teams are available Monday to Friday from 9:00 AM to 6:00 PM IST.",
+        "We are open Monday through Friday, 9:00 AM - 6:00 PM IST. Online platforms run 24/7."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": ["services", "products", "what do you do", "offerings", "ai solutions", "software engineering"],
+      "responses": [
+        "Datheon builds AI engineering solutions, voice AI agents, workflow automation, and cloud microservices.",
+        "We specialize in enterprise automation, full-stack systems, and student engineering training programs."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["pricing", "cost", "fee", "plans", "how much", "refund", "subscription"],
+      "responses": [
+        "Our student engineering internships are 100% free with zero evaluation fees. Enterprise pricing is tailored to project scope.",
+        "All Datheon standard training internships feature zero enrollment and verification fees."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": ["internship", "certificate", "credential", "tasks", "submission", "how to submit", "training"],
+      "responses": [
+        "To earn your Datheon Verified Certificate, complete 2-3 tasks from your task pack, push the code to a public GitHub repo, and submit your link via the student workspace.",
+        "Internship completion requires completing the assigned tasks, pushing to GitHub, and sharing your proof-of-work walkthrough."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "email", "support", "help", "reach out", "call", "phone", "location"],
+      "responses": [
+        "You can reach our team at admissions@datheon.in or hello@datheon.in. We respond within 24 business hours.",
+        "Feel free to email hello@datheon.in or book an advisory session at cal.com/datheonit/15min."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "exit", "quit", "see you", "goodbye", "close", "done"],
+      "responses": [
+        "Goodbye! Have a great day and happy engineering!",
+        "Thank you for chatting with Datheon Assistant. Best of luck with your internship!"
+      ]
+    }
+  ]
+}
